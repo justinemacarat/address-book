@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<div class="navbar">
+  <a href="add-contact.html" class="active">Add Contact</a>
+</div>
+
+<div class="row">
+  <div class="main">
+	<h3>Add Contact</h3>
+	<div class="container">
+	<form action="contact_controller.php" method="post">
+		<label for="fname">First Name</label>
+		<input type="text" id="fname" name="firstname" required>
+
+		<label for="lname">Last Name</label>
+		<input type="text" id="lname" name="lastname" required>
+
+		<label for="lname">Phone</label>
+		<input type="text" id="phone" name="phone" required>
+
+		<label for="lname">Email</label>
+		<input type="text" id="email" name="email" required>
+
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	</form>
+	</div>
+  </div>
+</div>
+
+
+</body>
+</html>
